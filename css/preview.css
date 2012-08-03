@@ -1,0 +1,489 @@
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('../fonts/BebasNeue-webfont.eot');
+  src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeue-webfont.woff') format('woff'), url('../fonts/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.wowbook {
+  color: #333;
+}
+.wowbook-page-content {
+  background: white;
+}
+.wowbook-left .wowbook-gutter-shadow {
+  background-image: url('../images/page_left_background.png');
+  opacity: 0.5;
+  width: 60px;
+}
+.wowbook-right .wowbook-gutter-shadow {
+  background-image: url('../images/page_right_background.png');
+  background-position: 0 0;
+  width: 75px;
+}
+body {
+  color: black;
+  background: #888888 url("../images/wood.jpg");
+  background-position: 50% top;
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+#container {
+  width: 1200px;
+  margin: auto;
+  padding-top: 3em;
+}
+h1,
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+  font-family: 'News Cycle', sans-serif;
+  text-shadow: 0 1px 0 rgba(10, 10, 10, 0.5);
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 0.5em;
+}
+nav {
+  height: 46px;
+  position: relative;
+  z-index: 2147483647;
+  zoom: 1;
+}
+nav li {
+  width: 48px;
+}
+nav a {
+  display: block;
+  height: 46px;
+  width: 48px;
+  padding: 0;
+  background: #000000 no-repeat;
+  background-position: 8px 7px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+nav #zoomin {
+  background-image: url(../images/icons/zoom_in.png);
+}
+nav #zoomout {
+  background-image: url(../images/icons/zoom_out.png);
+}
+nav #first {
+  background-image: url(../images/icons/arrow_double_left.png);
+}
+nav #last {
+  background-image: url(../images/icons/arrow_double_right.png);
+}
+nav #next {
+  background-image: url(../images/icons/arrow_right.png);
+}
+nav #back {
+  background-image: url(../images/icons/arrow_left.png);
+}
+nav #slideshow {
+  background-image: url(../images/icons/slideshow_play.png);
+}
+nav #slideshow.wowbook-disabled {
+  background-image: url(../images/icons/slideshow_pause.png);
+}
+nav a:hover {
+  background-color: #2C2C2C;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #f0f0f0));
+  background-image: -webkit-linear-gradient(top, #555555, #222222);
+  background-image: -moz-linear-gradient(top, #555555, #222222);
+  background-image: -ms-linear-gradient(top, #555555, #222222);
+  background-image: -o-linear-gradient(top, #555555, #222222);
+  background-image: linear-gradient(top, #555555, #222222);
+}
+nav a:active,
+nav a:hover,
+nav a {
+  outline: none;
+}
+.wowbook-page-content {
+  padding: 1em;
+}
+#main {
+  position: relative;
+}
+#click_to_open {
+  position: absolute;
+  left: 80px;
+  top: 190px;
+}
+.js #features {
+  mmargin-left: -12000px;
+}
+#features {
+  mmargin: auto;
+}
+#features h1 {
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 32px;
+  color: white;
+  background: #aa2b2b;
+  line-height: 1.5;
+  padding: 5px 5px 0px;
+  margin: 0;
+}
+#features .subtitle {
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 18px;
+  color: black;
+  line-height: 1.5;
+  padding: 5px 5px 0px;
+  font-style: italic;
+}
+#features p,
+#features ul {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 24px;
+  margin-top: 0.5em;
+}
+#features li {
+  list-style: none;
+}
+#cover {
+  background: #ffffff url("../images/cover.jpg") no-repeat;
+}
+
+
+<!--! ANDY: Contents of eMagazine -->
+
+
+.feature {
+  padding: 1em 1em;
+  font-family: 'BebasNeueRegular', sans-serif;
+  height: 500px;
+  width: 400px;
+  background: white;
+}
+.feature h1,
+.feature h2 {
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 38px;
+  color: black;
+}
+#features .feature.pagefx p {
+  font-size: 22px;
+}
+#features .feature.pagefx .subtitle {
+  margin-top: 0;
+  font-size: 18px;
+}
+#features .feature.pagefx h1 {
+  font-size: 48px;
+  color: #aa2b2b;
+  background: none;
+  line-height: 0.7;
+  padding: 5px 0px 0px;
+  margin: 0;
+}
+
+
+
+
+
+#features .spreadone {
+  background: #ffffff url("../images/spreadone.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadone h1,
+#features .spreadone p,
+#features .spreadone .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadone {
+  background-position: right top;
+}
+
+
+
+
+
+#features .spreadtwo {
+  background: #ffffff url("../images/spreadtwo.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadtwo h1,
+#features .spreadtwo p,
+#features .spreadtwo .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadtwo {
+  background-position: right top;
+}
+
+
+
+
+
+#features .spreadthree {
+  background: #ffffff url("../images/spreadthree.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadthree h1,
+#features .spreadthree p,
+#features .spreadthree .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadthree {
+  background-position: right top;
+}
+
+
+
+#features .spreadfour {
+  background: #ffffff url("../images/spreadfour.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadfour h1,
+#features .spreadfour p,
+#features .spreadfour .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadfour {
+  background-position: right top;
+}
+
+
+
+
+#features .spreadfive {
+  background: #ffffff url("../images/spreadfive.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadfive h1,
+#features .spreadfive p,
+#features .spreadfive .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadfive {
+  background-position: right top;
+}
+
+
+
+
+#features .spreadsix {
+  background: #ffffff url("../images/spreadsix.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadsix h1,
+#features .spreadsix p,
+#features .spreadsix .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadsix {
+  background-position: right top;
+}
+
+
+
+
+#features .spreadseven {
+  background: #ffffff url("../images/spreadseven.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadseven h1,
+#features .spreadseven p,
+#features .spreadseven .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadseven {
+  background-position: right top;
+}
+
+
+
+
+#features .spreadeight {
+  background: #ffffff url("../images/spreadeight.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadeight h1,
+#features .spreadeight p,
+#features .spreadeight .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadeight {
+  background-position: right top;
+}
+
+
+
+#features .spreadnine {
+  background: #ffffff url("../images/spreadeight.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadnine h1,
+#features .spreadnine p,
+#features .spreadnine .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadnine {
+  background-position: right top;
+}
+
+
+
+
+
+#features .spreadten {
+  background: #ffffff url("../images/spreadeight.png") no-repeat;
+  ffont-size: 1.5em;
+  ffont-family: lato;
+}
+#features .spreadten h1,
+#features .spreadten p,
+#features .spreadten .subtitle {
+  display: none;
+}
+#features .wowbook-right .spreadten {
+  background-position: right top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#features .design {
+  background: #ffffff url("../images/design.png") no-repeat;
+}
+
+#features .design h1 {
+  background: none;
+  text-indent: -10000px;
+  color: #88bfbf;
+  text-shadow: 1px 1px 0px #447f7f;
+  font-size: 144px;
+  line-height: 0.8;
+  bborder-bottom: 2px solid #88bfbf;
+}
+#features .design .subtitle {
+  font-family: 'News Cycle', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  color: #333;
+}
+#features .wowbook-right .design {
+  background: #ffffff url("../images/design.png") right top;
+}
+#features .wowbook-right .design p {
+  text-align: right;
+  position: absolute;
+  bottom: 1.5em;
+  font-size: 30px;
+  padding-right: 1em;
+}
+#zoom-feature {
+  background: #ffffff url("../images/zoom.jpg") no-repeat;
+}
+#zoom-feature h1 {
+  font-size: 100px;
+  color: #333;
+  background: none;
+  line-height: 1.1;
+  padding: 5px 0px 0px;
+  text-align: right;
+}
+#zoom-feature2 {
+  background: #ffffff url("../images/zoom.jpg") right top no-repeat;
+}
+.deeplinking {
+  color: white;
+  background: url("../images/chain.jpg") no-repeat;
+}
+.deeplinking h1 {
+  color: white;
+  background: #3d567d !important;
+}
+.deeplinking a,
+.deeplinking a:active,
+.deeplinking a:visited {
+  color: #f8f8f8;
+  text-decoration: underline;
+}
+.wowbook-right .deeplinking {
+  background-position: top right;
+}
+#features .feature.numbering {
+  background: url("../images/numbering.png") #ffffff no-repeat;
+}
+#features .feature.numbering h1 {
+  color: #AA2B2B;
+  background: none;
+  font-size: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#features .feature.numbering p {
+  font-size: 23px;
+}
+#features .feature.numbering .wowbook-page-number {
+  text-indent: 100%;
+  overflow: hidden;
+}
+#features .feature.slideshow h1 {
+  color: #AA2B2B;
+  background: none;
+  font-size: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#features .feature.slideshow a {
+  display: block;
+  text-align: center;
+}
+#features .feature.flash {
+  background: url("../images/flash.png") #ffffff no-repeat;
+  padding-top: 170px;
+}
+#features .feature.flash p {
+  font-size: 20px;
+  padding: 0.7em;
+}
+#features .feature.flash h1 {
+  display: none;
+}
+
+.more {
+  background: url("../images/more.png") #ffffff no-repeat;
+  padding-top: 30px;
+}
+.more h1 {
+  display: none;
+}
+.more ul {
+  margin-left: 1em;
+}
+.more li {
+  margin-bottom: 0.7em;
+}
+.wowbook-right .more {
+  background-position: top right;
+}
